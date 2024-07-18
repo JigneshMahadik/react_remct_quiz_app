@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.main-cont{
+  display: flex;
+  justify-content: center;
+  /* background-color: yellowgreen; */
+}
+#quiz-container{
+  background-color: rgb(131, 130, 130);
+  width: 500px;
+  border-radius: 10px;
+}
+#que-no{
+  color: white;
+}
+#question{
+  color: rgb(22, 22, 116);
+}
+#btns{
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  margin: 20px;
+  gap: 10px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #a1a3a7;
+  color: white;
+  border: 2px solid white; /* Updated to define the border */
+  cursor: pointer;
+}
+
+@media(max-width:600px){
+  #quiz-container{
+    width: 100%;
+    /* background-color: yellowgreen; */
+  }
+}
